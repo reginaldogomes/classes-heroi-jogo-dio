@@ -35,11 +35,20 @@ O projeto está dividido em três arquivos principais:
 - `css/styles.css` — estilos customizados e regras de layout para o design minimalista.
 - `js/script.js` — definição da classe `Heroi` e toda a lógica de interação com o formulário.
 
-Como Executar
+## Como executar
 
-Baixe os arquivos: Certifique-se de que index.html, styles.css, e script.js estão na mesma pasta.
+1. Certifique-se de que `index.html`, `css/styles.css` e `js/script.js` estão na mesma pasta.
+2. Abra o arquivo `index.html` no seu navegador (Chrome, Firefox, etc.).
+3. Preencha os campos do formulário e clique em **ATACAR!** para ver a mensagem de ataque.
 
-Abra o index.html no seu navegador (Chrome, Firefox, etc.).
+Opcional — executar via servidor local (recomendado para evitar restrições de CORS em alguns navegadores):
 
-Interaja: Preencha os campos e clique em ATACAR! para ver o resultado da classe Heroi sendo executada.
-# classes-heroi-jogo-dio
+```bash
+# a partir da pasta do projeto
+python3 -m http.server 8000
+# então abra http://localhost:8000 no navegador
+```
+
+---
+
+Se quiser, posso adicionar instruções para testes automatizados ou um pequeno fluxo de CI.
