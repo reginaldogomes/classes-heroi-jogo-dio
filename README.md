@@ -1,4 +1,4 @@
-Gerador de Herói e Simulador de Ataque
+# Gerador de Herói e Simulador de Ataque
 
 Este projeto é a solução para o desafio DIO de criação de classes (POO - Programação Orientada a Objetos) para um jogo de aventura. O objetivo é criar uma classe genérica Heroi capaz de simular um ataque específico com base no seu tipo (mago, guerreiro, monge, ninja).
 
@@ -43,11 +43,7 @@ O projeto está dividido em três arquivos principais:
 
 Opcional — executar via servidor local (recomendado para evitar restrições de CORS em alguns navegadores):
 
-```bash
-# a partir da pasta do projeto
-python3 -m http.server 8000
-# então abra http://localhost:8000 no navegador
-```
+Use sua ferramenta de servidor local preferida (por exemplo, a extensão **Live Server** no VSCode ou uma ferramenta HTTP estática).
 
 ---
 
