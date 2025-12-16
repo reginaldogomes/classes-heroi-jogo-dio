@@ -47,4 +47,3 @@ Use sua ferramenta de servidor local preferida (por exemplo, a extensão **Live 
 
 ---
 
-Se quiser, posso adicionar instruções para testes automatizados ou um pequeno fluxo de CI.
